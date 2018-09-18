@@ -1,7 +1,7 @@
 <template>
-  <el-row>
-    <div style="margin-left: 32px;margin-right: 32px;"  clss="bdd_news"><span class="bdd_span">我是公司名我是公司名我是公司名我是公司名我是公司名我是公司名我</span></div>
-    <div style="margin-left:32px;margin-right: 32px;" class="bdd_r_a">发布日期：2018年01月0日</div>
+  <div  >
+    <div style="margin-left:20px;margin-right:20px;"  clss="bdd_news"><span class="bdd_span">我是公司名我是公司名我是公司名我是公司名我是公司名我是公司名我</span></div>
+    <div style="margin-left:20px;margin-right:20px;" class="bdd_r_a">发布日期：2018年01月0日</div>
     <div class="bdd_r_si">
       <div class="bdd_r_one">
         <div >
@@ -19,7 +19,7 @@
       <div class="bdd_r_text">更多详细信息</div>
       <div class="bdd_r_one">
         <div >
-          <div style="position:relative"><img style="width:24px;height:24px;position:absolute;top:0px;left:0" class="bdd_img" src="../../assets/bdd_one.png"/></div>
+          <div style="position:relative"><img style="width:12px;height:12px;position:absolute;top:-14px;left:0" class="bdd_img" src="../../assets/bdd_one.png"/></div>
 
           <div class="bdd_s bdd_m "><span class="bdd_time bdd_spc">报名截止</span><span class="bdd_ri">2018-01-01 周一 00:00</span></div>
 
@@ -30,7 +30,7 @@
       </div>
       <div style="padding-bottom: 20px;" class="bdd_r_one">
         <div >
-          <div style="position:relative"><img style="width:24px;height:24px;position:absolute;top:0px;left:0" class="bdd_img" src="../../assets/bdd_tow.png"/></div>
+          <div style="position:relative"><img style="width:12px;height:12px;position:absolute;top:-14px;left:0" class="bdd_img" src="../../assets/bdd_tow.png"/></div>
           <div class="bdd_s bdd_m "><span class="bdd_time bdd_spc">保证金截止</span><span class="bdd_ri">2018-01-01 周一 00:00</span></div>
           <div class="bdd_s bdd_m "><span class="bdd_time bdd_spc">金&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;额</span><span class="bdd_ri">0000.00万元</span></div>
           <div style="width: 100%;overflow: hidden;">
@@ -40,7 +40,7 @@
       </div>
       <div class="bdd_r_one">
         <div >
-          <div style="position:relative"><img style="width:24px;height:24px;position:absolute;top:0px; left:0" class="bdd_img" src="../../assets/bdd_three.png"/></div>
+          <div style="position:relative"><img style="width:12px;height:12px;position:absolute;top:-14px; left:0" class="bdd_img" src="../../assets/bdd_three.png"/></div>
           <div class="bdd_s bdd_m "><span class="bdd_time bdd_spc">开标截止</span><span class="bdd_ri">2018-01-01 周一 00:00</span></div>
           <div class="bdd_s bdd_m "><span class="bdd_time bdd_spc">开标人员</span><span class="bdd_ri">我是开标人员</span></div>
           <div style="width: 100%;overflow: hidden">
@@ -59,17 +59,13 @@
     </div>
     </div>
 
-  </el-row>
+
+  </div>
 
 </template>
 <script>
-export default {
-  name: 'dynamic',
-  data () {
-    return {}
-  }
-}
+
 </script>
-<style s src = "../../css/dynamic/dynamic.css">
+<style src = "../../css/dynamic/dynamic.css">
 
 </style>
