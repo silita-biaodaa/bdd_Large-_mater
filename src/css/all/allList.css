@@ -1,0 +1,31 @@
+.bdd_a_row {
+  height: 32px;
+  font-size: 32px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(102, 102, 102, 1);
+  line-height: 32px;
+  margin-left:16px;
+  vertical-align: middle;
+
+}
+.bdd_a_img{
+  width:40px;
+  height:40px;
+  margin-left:30px;
+  vertical-align: middle;
+
+}
+.bdd_a_li{
+  margin-left:90px;
+  height:28px;
+  font-size:28px;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+  line-height:40px;
+
+}
+.bdd_a_let{
+  margin-top:30px;
+}
